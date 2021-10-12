@@ -1,6 +1,6 @@
-const { GraphQLServer } = require("graphql-yoga")
+const { GraphQLServer } = require('graphql-yoga')
 const path = require('path')
-const resolvers = require('./resolvers')
+const resolvers = require('resolvers')
 const mongoose = require('mongoose')
 
 mongoose.connect('mongodb://localhost:27017/mongo-graphql', {
