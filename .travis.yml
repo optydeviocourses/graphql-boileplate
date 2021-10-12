@@ -1,0 +1,36 @@
+language: node
+
+node_js:
+  - 15
+
+cache: yarn
+
+# before_install:
+#  - yarn install
+# - yarn add --dev jest @babel/preset-typescript @types/jest
+#  - yarn add styled-components
+#  - yarn add --dev @types/styled-components babel-plugin-styled-components
+#  - yarn add --dev jest-styled-components
+#  - yarn add --dev @testing-library/react
+#  - yarn add --dev @testing-library/jest-dom
+
+install:
+  - yarn install
+
+# before_script
+script:
+  - yarn test
+  - yarn build
+
+# after_sucess
+# after_failure
+# after_script
+# before_deploy
+deploy:
+  provider: src
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN
+  on:
+    branch: master
+
+# after_deploy
