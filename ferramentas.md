@@ -1,13 +1,18 @@
 # Ferramentas para uso do NEXTJS
 
-## Yarn
+
+### Yarn ([https://yarnpkg.com/](Yarn))
+- Yarn é um gerenciador de pacotes que também atua como gerente de projeto.
 
 ```bash
 	npm install -g yarn
 ```
 
 
-## NextJS
+### NextJS ([https://nextjs.org/](NextJS))
+- Frontend para ReacJS com opções de  CSR, SSR e SPA.
+- Bancked com pages/api/
+- Controle de rotas imbutidas
 
 ```bash
 	# Usando yarn
@@ -18,14 +23,15 @@
 
 ```
 
-## ESLint
+### ESLint ([https://eslint.org/](ESLint))
+- Ajuste dos erros no código
 
 ```bash
 	npx eslint --init
 ```
 
 ## Prettier
-
+- Ajuste visual do código
 ```bash
 	npm install --save-dev --save-exact prettier
 	
@@ -37,6 +43,7 @@
 
 
 ## Husky
+- Controle de commits com erros no código envidando .fix
 
 ```bash
 	yarn add --dev husky && yarn huksy init
@@ -44,7 +51,10 @@
 
 ```
 
-## Jest
+### Jest ([https://jestjs.io/pt-BR/](Jest))
+- Jest é um poderoso Framework de Testes em JavaScript com um foco na simplicidade.
+
+- Funciona com projetos usando: Babel , TypeScript , Node , React , Angular , Vue e muito mais!
 
 ```bash
 	yarn add --dev jest @babel/preset-typescript @types/jest
@@ -53,8 +63,22 @@
 
 
 
-## TypeScript
+### TypeScript
 
-## GraphQL
+### GraphQL
 
-## serverless
+```bash
+	yarn add graphql-yoga
+```
+###
+
+``` bash
+	yarn add mongoose
+```
+
+
+
+### serverless
+
+
+###

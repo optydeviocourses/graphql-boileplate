@@ -1,5 +1,5 @@
-const User = require('./src/api/User')
-const Users = require('./src/api/User')
+const User = require('User')
+const Users = require('User')
 
 module.exports = {
   Query: {
