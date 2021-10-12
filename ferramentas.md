@@ -38,13 +38,20 @@
 
 ## Husky
 
-```
+```bash
 	yarn add --dev husky && yarn huksy init
 	yarn add --dev lint-staged
 
 ```
 
 ## Jest
+
+```bash
+	yarn add --dev jest @babel/preset-typescript @types/jest
+	
+```
+
+
 
 ## TypeScript
 
