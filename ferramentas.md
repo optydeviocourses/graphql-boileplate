@@ -38,6 +38,12 @@
 
 ## Husky
 
+```
+	yarn add --dev husky && yarn huksy init
+	yarn add --dev lint-staged
+
+```
+
 ## Jest
 
 ## TypeScript

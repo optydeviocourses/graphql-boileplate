@@ -1,7 +1,7 @@
 import Main from 'components/Main'
 
 type Props = {
-  title: string;
+  title: string
 }
 
 export default function Home() {
